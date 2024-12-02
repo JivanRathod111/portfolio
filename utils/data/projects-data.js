@@ -31,7 +31,7 @@ export const projectsData = [
         tools: ['React', 'Bootstrap', "MUI"],
         code: '',
         role: ' Front-end Developer',
-        demo: '',
+        technotype: "https://technotype.netlify.app/",
         image: realEstate,
     },
     // {

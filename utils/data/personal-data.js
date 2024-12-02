@@ -11,5 +11,6 @@ export const personalData = {
   twitter: '',
   stackOverflow: '',
   leetcode: "",
-  resume: "https://drive.google.com/file/d/1q4GTfec0ksd2_9JUurjEFbIlhjFEvUkI/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1YwBYaLko0qysLBNuwg8WenGRUSfXPSGd/view",
+  technotype: "https://technotype.netlify.app/"
 }

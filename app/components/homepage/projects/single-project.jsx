@@ -4,7 +4,7 @@ import { FaCode, FaPlay } from 'react-icons/fa';
 import placeholder from '/public/png/placeholder.png';
 
 const SingleProject = ({ project }) => {
-  const { name, description, tags, code, demo, image, features } = project;
+  const { name, description, tags, code, demo, image, features, techotype } = project;
 
   return (
     <div className='group w-full h-fit flex flex-col items-center justify-center relative cursor-text overflow-hidden px-3 md:px-8 py-[1.4rem] bg-[linear-gradient(90deg,#281e57_0%,#201435_100%)] shadow-2xl rounded-lg border border-[#1a1443]'
@@ -63,6 +63,9 @@ const SingleProject = ({ project }) => {
             <FaCode />
           </Link>
         </div>
+
+      
+
       </div>
       <p className="absolute w-[90%] md:w-[85%] md:min-h-[150px] translate-x-[-110%] transition-transform duration-[0.9s] p-6 leading-[110%] rounded-[0_20px_20px_0] left-0 top-0 bg-[#0f0b24]  text-[#EFF3F4] translate-y-[25%] md:translate-y-[50%] group-hover:translate-x-[-2%] text-xs md:text-sm">
         {description}

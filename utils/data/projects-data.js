@@ -12,6 +12,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
+        projectLink: "",
         image: crefin,
     },
     {
@@ -22,6 +23,7 @@ export const projectsData = [
         role: 'Back-End Developer',
         code: '',
         demo: '',
+        projectLink: "",
         image: travel,
     },
     {
@@ -31,7 +33,7 @@ export const projectsData = [
         tools: ['React', 'Bootstrap', "MUI"],
         code: '',
         role: ' Front-end Developer',
-        technotype: "https://technotype.netlify.app/",
+        projectLink: "https://technotype.netlify.app/",
         image: realEstate,
     },
     // {

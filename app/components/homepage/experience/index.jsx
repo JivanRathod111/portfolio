@@ -41,7 +41,7 @@ function Experience() {
               {
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
-                    <div className="p-3 relative">
+                    <div className="p-3 relative ">
                       <Image
                         src="/blur-23.svg"
                         alt="Hero"
